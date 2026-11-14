@@ -60,8 +60,6 @@ streamlit run app.py
 The first load downloads 1981–today for every variable, one request per city. That can take
 a minute or two; results are then cached for a day.
 
-There's also a command-line version:
-
 
 ## Caveats
 
