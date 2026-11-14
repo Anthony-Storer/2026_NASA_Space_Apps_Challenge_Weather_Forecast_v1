@@ -62,7 +62,7 @@ with st.sidebar:
 
     st.divider()
     st.caption("Data: [NASA POWER](https://power.larc.nasa.gov/) daily point API "
-               "(MERRA-2 reanalysis and satellite solar data). No API key needed.")
+               "(MERRA-2 reanalysis and satellite solar data).")
 
 # --------------------------------------------------------------------------
 # Data
