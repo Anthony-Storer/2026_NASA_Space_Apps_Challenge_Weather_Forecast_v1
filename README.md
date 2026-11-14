@@ -1,6 +1,6 @@
 # Earth science trends for Dallas, NYC, and San Francisco
 
-Artificial Intelligence (Claude Opus 5.5 High) was employed to assist the authors with the creation of this dashboard. The authors have reviewed the repo and claim responsbility for any errors thoughout. 
+Artificial Intelligence (Claude Opus 5.5 High) was employed to assist the authors with the creation of this dashboard. The authors have reviewed the repo and claim responsibility for any errors throughout. 
 
 A Streamlit dashboard built on the [NASA POWER](https://power.larc.nasa.gov/) daily API. For **San Francisco, New York and Dallas** it asks two questions
 about nine Earth science variables:
