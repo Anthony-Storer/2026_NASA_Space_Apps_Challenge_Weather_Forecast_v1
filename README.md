@@ -39,15 +39,15 @@ All values come in metric units; the app can show US units (°F, inches, mph, in
   typical day-to-day surprise.
 
 Trend tests run on yearly values, not daily ones. Daily weather is strongly autocorrelated,
-so daily-level tests are badly overconfident. In simulations on series with no real trend,
-the corrected tests raised false alarms 5–9% of the time (target 5%). The uncorrected versions
-reached 25% when neighboring years were correlated. The *Method* tab has the details.
+so daily-level tests are often overconfident. In simulations on series with no real trend,
+the corrected tests raised false alarms 5–9% of the time. The uncorrected versions
+reached 25% when neighboring years were correlated. The *Method* tab has further details.
 
 ## Day-to-day predictability view
 
 Each day is split into a seasonal cycle and trend, persistence (an autoregressive model of
 recent days) and an unpredictable residual. The model is fitted on earlier years only and
-tested on later years it never saw. A forecast-horizon analysis shows how skill fades from
+tested on later years (that is, a train-test split). A forecast-horizon analysis shows how skill fades from
 1 to 30 days ahead. (Not available for precipitation, which is mostly zeros.)
 
 ## Run it locally
